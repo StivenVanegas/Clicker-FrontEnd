@@ -71,7 +71,7 @@ export const Room = () => {
             <div className="row RoomSubContainer rounded">
                 <div className="col-md-6">
                     <div>
-                        <SockJsClient url="http://localhost:8080/stompendpoint" 
+                        <SockJsClient url="https://nevits-clicker-back.herokuapp.com/stompendpoint" 
                             topics={["/topic/room."+roomCode,"/topic/game."+roomCode,"/topic/timer."+roomCode,"/topic/start."+roomCode]}
                             onMessage={onMessageReceive} ref={(client) => { setClienteRef(client) }} 
                             onConnect={handleConnect}/>
