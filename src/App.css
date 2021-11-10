@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.LoginContainer {
+    min-height: 100vh;
+    background-color:#611db9;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.LoginSubContainer {
+    padding: 20px;
+    background-color:#ffffff;
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btnEnter {
+    background-color: #280b4e;
+    border-color: #1c0836;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btnEnter:hover {
+    background-color: #1c0836;
+    border-color: #1c0836;
 }
 
-.App-link {
-  color: #61dafb;
+.btnEnter:focus {
+    background-color: #1c0836;
+    border-color: #1c0836;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.RoomContainer {
+    background-color: #611db9;
+    min-height: 100vh;
+}
+
+.RoomSubContainer {
+    background-color: #ffffff;
+    height: 100%;
+}
+
+@media (min-width: 320px) {
+    .LoginSubContainer {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .LoginSubContainer {
+        width: 40%;
+    }
 }
