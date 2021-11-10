@@ -41,8 +41,8 @@ export const Home = () => {
                     <label>Nombre de usuario</label>
                 </div>
                 <div className="form-floating mb-3">
-                    <input type="text" className="form-control" placeholder="code" onChange={handleCodeChange}/>
-                    <label>Codigo</label>
+                    <input type="number" className="form-control" placeholder="code" onChange={handleCodeChange}/>
+                    <label>Codigo de sala</label>
                 </div>
                 <div className="d-grid gap-2">
                     <button type="button" className="btnEnter btn btn-primary btn-lg btn-block" onClick={handleClick}>Entrar</button>

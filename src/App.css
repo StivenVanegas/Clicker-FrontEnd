@@ -35,6 +35,11 @@
     height: 100%;
 }
 
+.RoomInfo {
+    text-align: center;
+}
+
+
 @media (min-width: 320px) {
     .LoginSubContainer {
         width: 80%;
